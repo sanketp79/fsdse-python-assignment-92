@@ -3,6 +3,5 @@ import numpy as np
 
 
 def solution(data, index):
-    """
-    Enter your code here
-    """
+    dataF = pd.DataFrame(data, index)
+    return dataF
